@@ -1,0 +1,11 @@
+POR CONSOLA
+
+Se crea un entorno virtual llamado test
+
+ * Para activar 
+	E:\Git-Python\Python_Intermedio\test\Scripts\activate.bat
+ * Para desactivar
+	deactivate
+
+Para ver los modulos instalados en ese entorno virtual se utiliza
+ * pip freeze
