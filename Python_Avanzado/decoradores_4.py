@@ -17,10 +17,14 @@ def random_func():
 
 
 @execution_time
-def suma(a:int, b:int) -> int:
+def suma(a:int, b:int) -> int:   # args son los argumentos dados a una funcion
     return a+b
 
-suma(5,5)
-#random_func()
+@execution_time
+def saludo(nombre="Ana"):  #kwargs o keyword args son los argumentos nombrados o con variables inicializadas
+    print(f'Hola {nombre}, espero estes bien')
 
+random_func()
+suma(5,5)
+saludo("Tatiana")
 
