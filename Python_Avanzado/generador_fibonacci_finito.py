@@ -13,7 +13,7 @@ def fiboGen(max=None):
         numero_1, numero_2 = numero_2, auxiliar
 
 if __name__=="__main__":
-    n = int(input("Escribe el numero tope para la serie fibonacci: "))
+    n = 80#int(input("Escribe el numero tope para la serie fibonacci: "))
     fibonacci = fiboGen(n)
     for element in fibonacci:
         print(element)
